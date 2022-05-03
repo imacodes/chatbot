@@ -1,0 +1,90 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Hi there"],
+         "responses": ["Hello", "Hi!  I am Ms. Lizzy, I am a staff of Solents University Admissions Office, and I am happy to help",
+           "Hello there, my name is Lizzy, I work with Solents Admissions Office, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Bye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "Is there anything else I can help you with in the admission process?", "My pleasure"]
+        },
+        {"tag": "other-requirement",
+         "patterns":  ["Do I need an interview?", "Do I need to write an admission test.", "What is the UCAS point?"],
+         "responses":  ["That is a great point; a lot of students want to find out about these issues. So, I will answer your question and a few related concerns students have. \nFirst, I would say there are interviews, but they are not mandatory for all courses; it is conducted so that admissions officers can really get a sense of applicants personality, interests, values, and aspirations. Second, you are also not required to write any admission test and third, your UCAS Tariff points translate your qualifications and grades into a numerical value. \n"]
+         },
+        {"tag": "tuition",
+         "patterns": ["What are the tuition fees for my course?",
+      "What percentage of the fees must I pay before getting CAS?",
+      "What is the deadline for payment of fees?",
+      "What happens if I dont meet up with the deadline?",
+      "What happens if I pay less than the acceptable percentage?",
+      "After the initial payment, how long more do I have before I complete the fees?",
+      "How do I pay the fees?",
+      "Can I apply for financial support from the school?",
+      "Am I qualified for a student loan?",
+      "Am I qualified to apply for a scholarship,?"],
+        "responses": ["Our tuition fees are moderate and range from as low as £9,250 per year for UK home students to £14,250 per year for International full-time students. You can get more specific informaiton from Fees and Finance segment of your course page. \nFor international students, you are required to pay up to 50% of the fees. The payment deadline is August 15th for September batch, and January 6th for January batch. Students will get a payment plan spread conveniently over the duration of their course. Fees are paid through our payment processor, Flytime. There are scholarships and loans are available, please see the Fees and Finance segment of your course for qualification criteria. \nIs there anything else I can help you with in the admission process?\n"]
+        },
+        {"tag": "name",
+         "patterns": ["Whats your name", "What should I call you"],
+         "responses": ["My name is Lizzy", "I am Lizzy"]
+        },
+        {"tag": "requirement",
+         "patterns": [
+           "What IELT score do I need for my course?",
+           "What are the entry requirements for solent university course?",
+           "What other requirement do I need?",
+           "What is the admission criteria for AI and Data Science?"
+         ],
+         "responses": [
+           "Thats a great question; let me walk you through the requirements. One of which is to have an IELTS score  that is between 6 to 8 points; however you may be eligible for an exemption. Please check your eligibility at solent.ac.uk/eligibility. You also need to have 5 credits in GCSE relevant to your course. If you are an international students, you may need a certified transcript. \nIs there anything else I can help you with in the admission process?"]
+        },
+        {"tag": "deadline",
+         "patterns": ["Whats the application deadline?",
+           "When will the application end?",
+           "When is the latest I can apply for my course? ",
+           "I want to apply for the September batch, how much time do I still have left?",
+           "What is the cut-off date to apply?",
+           "When is the application due?",
+           "What is the timeframe for applying to Solent University?"
+         ],
+          "responses": ["You can apply anytime prior to the course start date. Please, note that admission places fill up quickly. \nIs there anything else I can help you with in the admission process?",
+           "We recommend submitting your application sooner rather than later to allow time for processing but the deadline is 30th July 2022. \nIs there anything else I can help you with in the admission process?",
+           "The application deadline for submitting your application is July 2022. However, for scholarship applications, the deadline is May 2022. \nIs there anything else I can help you with in the admission process?"]
+        },
+        {"tag": "payment plan",
+         "patterns": ["Can I set up my payment plan?",
+           "What is the maximum acceptable number of installments?",
+           "What is the minimum payment amount per installment?",
+           "Can I break down payments?",
+           "Do fees need to be paid all at once?",
+           "Are there any discounts?",
+           "When is my discount applied?",
+           "Do I need to let someone know I have a discount?",
+           "Is it cheaper to study part time?"
+         ],
+          "responses": ["If you wish to pay in installments for your course, please contact the finance team to discuss a payment plan. Tuition fees can vary depending on what course you are studying, whether you are full-time or part-time and where in the world you are arriving from.The team will be able to discuss with you any potential discounts available or bursaries you might be eligible for. For returning students discounts are automatically added. \nIs there anything else I can help you with?"]
+        },
+  {
+    "tag": "application update",
+    "patterns": [
+      "When will I get feedback about my application?",
+      "What communication mode will the school use?",
+      "Can I appeal if I am not satisfied with the outcome?",
+      "How long does it take to get an update?",
+      "What will be the next step after the outcome of my application",
+      "How long does it take to process my application?",
+      "When will i hear about my application?",
+      "How will I know if I am successful or not?"
+    ],
+    "responses": [
+      "We can provide you with an update on your application. The school will communicate via email. Please ensure you include a valid email address. If your application is unsuccessful, you can choose to appeal. You will need to send an email to admissions@solent.ac.uk Is there anything else I can help you with?"
+    ]
+  }
+
+]
+}
